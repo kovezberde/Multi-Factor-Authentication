@@ -13,12 +13,12 @@ class EereMfa
   {
     //$username = variable_get('username', NUL);
     //$password = variable_get('password', NULL);
-    $username = '13';
-    $password = '29960D3F-C6A8-4D70-A382-FC1475584BF8';
+    $username = '';
+    $password = '';
     //$wsdl = variable_get('url', NULL);
     //$basic = variable_get('basic_url', NULL);
-    $wsdl = 'https://prdmfawebpriv2.doe.gov/EEREAuthService/SoftToken/SoftTokenService.svc?wsdl';
-    $basic = 'https://prdmfawebpriv2.doe.gov/EEREAuthService/SoftToken/SoftTokenService.svc/basic';
+    $wsdl = 'your AuthService wsdl';
+    $basic = 'your AuthService basic';
     $this->username = $username;
     $this->password = $password;
     $this->wsdl = $wsdl;
