@@ -57,34 +57,11 @@ class EereMfaForm extends FormBase
     );
 
   $form['text'] = array(
-      '#markup' => '<div class="oneid-wrapper">'
-        . '<h3>About OneID Authentication</h3>'
-        . '<p>OneID is the Department of Energy (DOE) Enterprise Identity and Access Management (IAM) solution. '
-        . 'Enterprise IAM addresses the mission-critical need to support trusted users access to resources across an increasingly heterogeneous environment,'
-        . 'while meeting rigorous compliance requirements. OneID facilitates secure access of trusted users to DOE systems.</p>'
-        . '<p>This EERE system has adopted OneID as its authentication method which allows for the use of a HSPD-12 (or equivalent) credential.</p>' 
-        . '</div>',
-        '#suffix' => '<div>',
+      '#markup' => '',
     );
 
     $form['terms-of-use'] = array(
-      '#markup' => '
-        <div class="terms-of-use-wrapper">
-        <h3>System Terms of Use</h3>
-        <p>This is a Department of Energy (DOE) information system. DOE information systems are provided for the processing of official U.S. Government information only. By using the account or the information system, or connecting any devices to the information system, the user acknowledges, understands, and consents to the following:</p>
-        <p>There is no reasonable expectation of privacy regarding communications or data transiting or stored on the information system or devices connected to the information system. At any time and for any official purpose, the government may monitor, intercept, record, and search any communications or data transiting or stored on the information system or devices connected to the information system.</p>
-        <p>Any communications or data transiting or stored on the information system or devices connected to this Government information system may be used or disclosed for any official purpose, including to law enforcement or other government agencies, as deemed appropriate by DOE, or as mandated by law.</p>
-        <p>By accessing this Government information system, the user agrees to appropriately access, manage, and safeguard any federal records and information stored within this system, including controlled unclassified information (CUI).</p>
-        <p>Unauthorized or improper use of Government information systems may result in limitations placed on the use of Government information systems, disciplinary or adverse actions, including termination of employment, criminal or civil penalties, and or financial liability for the cost of such improper use.</p>
-        <p>By continuing to use this Government information system you indicate your awareness of and consent to these terms and conditions of use. LOG OFF IMMEDIATELY if you do not agree to the conditions stated in this warning.</p>
-        <p>This system does collect limited Personally Identifiable Information (PII). You may read the Privacy Notice for further information on how it will be used.</p>
-        <h3>Privacy Notice</h3>
-        <p>Collection of information requested is authorized by the U. S. Department of Energy`s EERE Centralized Web Hosting Environment (ECWHE). The data collected in the ECWHE web applications is used strictly in your account/login information, in project update communications and only to contact the user to provide account assistance.</p>
-        <p>Providing the information requested on this form is voluntary; however, if you choose not to provide this information, your account may not be processed or you may not receive project updates.</p>
-        <p>Personally identifiable information provided must be validated by the individual, periodically or at least annually, to ensure its accuracy. You can log in to your account and update your information or contact ECWHE administrators.</p>
-        <p>For more information on how DOE protects your data, to request access to your records, or to submit a privacy complaint, please review the Department`s privacy policy at www.energy.gov/privacy.</p>
-        </div>',
-       '#suffix' => '<div>',
+      '#markup' => '',
     );
        return $form;
   }
@@ -155,22 +132,7 @@ class EereMfaForm extends FormBase
    );
 
     $form['terms-of-use'] = array(
-      '#markup' => '
-        <div>
-        <h3>System Terms of Use</h3>
-        <p>This is a Department of Energy (DOE) information system. DOE information systems are provided for the processing of official U.S. Government information only. By using the account or the information system, or connecting any devices to the information system, the user acknowledges, understands, and consents to the following:</p>
-        <p>There is no reasonable expectation of privacy regarding communications or data transiting or stored on the information system or devices connected to the information system. At any time and for any official purpose, the government may monitor, intercept, record, and search any communications or data transiting or stored on the information system or devices connected to the information system.</p>
-        <p>Any communications or data transiting or stored on the information system or devices connected to this Government information system may be used or disclosed for any official purpose, including to law enforcement or other government agencies, as deemed appropriate by DOE, or as mandated by law.</p>
-        <p>By accessing this Government information system, the user agrees to appropriately access, manage, and safeguard any federal records and information stored within this system, including controlled unclassified information (CUI).</p>
-        <p>Unauthorized or improper use of Government information systems may result in limitations placed on the use of Government information systems, disciplinary or adverse actions, including termination of employment, criminal or civil penalties, and or financial liability for the cost of such improper use.</p>
-        <p>By continuing to use this Government information system you indicate your awareness of and consent to these terms and conditions of use. LOG OFF IMMEDIATELY if you do not agree to the conditions stated in this warning.</p>
-        <p>This system does collect limited Personally Identifiable Information (PII). You may read the Privacy Notice for further information on how it will be used.</p>
-        <h3>Privacy Notice</h3>
-        <p>Collection of information requested is authorized by the U. S. Department of Energy`s EERE Centralized Web Hosting Environment (ECWHE). The data collected in the ECWHE web applications is used strictly in your account/login information, in project update communications and only to contact the user to provide account assistance.</p>
-        <p>Providing the information requested on this form is voluntary; however, if you choose not to provide this information, your account may not be processed or you may not receive project updates.</p>
-        <p>Personally identifiable information provided must be validated by the individual, periodically or at least annually, to ensure its accuracy. You can log in to your account and update your information or contact ECWHE administrators.</p>
-        <p>For more information on how DOE protects your data, to request access to your records, or to submit a privacy complaint, please review the Department`s privacy policy at www.energy.gov/privacy.</p>
-        </div>'
+      '#markup' => '',
     );
       return $form;
   }
