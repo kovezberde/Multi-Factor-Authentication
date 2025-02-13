@@ -1,0 +1,188 @@
+.deftoken-container {
+ display: inline-block;
+ display: inherit;
+}
+#eeremfa-token-form .form-item,
+#eeremfa-token-form .form-actions {
+  display: inline-block;
+  padding: 5px;
+}
+.dropdown-text {
+ margin-bottom: -20px;
+}
+.deftoken-container input {
+ font-weight: bold;
+}
+#block-bbsc-uswds-content .eeremfa-token-form.usa-form {
+  max-width: 100%;
+}
+.eere-row {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.eere-row > div {
+  min-width: 60%;
+  max-width: 27rem;
+}
+.eere-row > div:nth-child(2) {
+  position: relative;
+  top: -6.89rem;
+}
+.wrapped-button input,
+.wrapped-button a.button {
+  max-width: 100%;
+  white-space: initial;
+}
+.wrapped-button #edit-submit {
+  padding: 0.5rem;
+  height: 3.6rem;
+  background: #005b82;
+  margin-bottom: 1rem;
+  color: #fff;
+  line-height: 1.4rem;
+  white-space: break-spaces;
+  /* width: initial; */
+}
+.wrapped-button button:visited, 
+.wrapped-button .button:visited
+.eere-row a.reset.button:visited,
+.eere-row a:visited {
+  color: #fff;
+  background-color: #186a8e;
+}
+.eere-row a:hover{
+  text-decoration: none;
+}
+.eere-row a.login-password:visited {
+  color: #3986ca;
+  text-decoration:none;
+}
+.eere-row a.reset.button {
+  padding: 0.5rem 0 0 2rem;
+  border-radius: 3px 3px 3px 3px;
+  height: 3rem;
+  background: #005b82;
+  margin-bottom: 1rem;
+  color: #fff;
+  white-space: break-spaces;
+  width: 523px;
+  display: block;
+}
+.eere-row p {
+  margin-top: 2rem;
+}
+.intro-text {
+  min-width: 45%;
+  max-width: 27rem;
+  margin-bottom: 1rem;
+}
+.smart-card-image-wrapper {
+  display: inline-grid;
+  max-width: 100%;
+  position: relative;
+  top: 1rem;
+}
+.smart-card-image-wrapper img {
+  width: 200px;
+  position: relative;
+  top: 0.3rem;
+  margin-bottom: 2rem;
+}
+.smart-card-image-wrapper a {
+  padding: 2px;
+  border-radius: 3px 3px 3px 3px;
+  height: 3.3rem;
+  background: #005b82;
+  margin-bottom: 1rem;
+  color: #fff;
+  white-space: pre-wrap;
+  width: 523px;
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+.select-container-inline hr {
+  border: 0;
+}
+.eeremfa-login-form h2 {
+  position: relative;
+  top: 0.8em;
+}
+/***** OneID *******/
+.oneid-wrapper {
+  width: 46%;
+  position: relative;
+  left: 55%;
+  top: -16.5rem;
+}
+.terms-of-use-wrapper {
+  position: relative;
+  top: -14.5rem;
+}
+.oneid-need-help {
+  top: 2.5rem;
+  position: relative;
+}
+a.oneid-link:visited,
+a.oneid-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* MFA
+------------------------------------ */
+.eere-row a.reset.button,
+.wrapped-button #edit-submit,
+.eeremfa-login-form.usa-form .smart-card-image-wrapper a,
+.eere-row .smart-card-image-wrapper a {
+  width: initial;
+  font-weight: initial;
+}
+.eere-row .smart-card-image-wrapper a {
+  height: 5.5rem;
+}
+.eere-row .smart-card-image-wrapper a:hover,
+.eere-row .smart-card-image-wrapper a:focus,
+.eere-row .smart-card-image-wrapper a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+.eeremfa-login-form .eere-row {
+  gap: initial;
+}
+.eeremfa-login-form .eere-row > div:nth-child(2) {
+  left: 70%;
+  top: 1.7rem;
+  position: absolute;
+}
+.eere-row .wrapped-button #edit-submit {
+  font-size: initial;
+  font-weight: initial;
+}
+.eere-row a.reset.button {
+  padding: 0.5rem 0 0 1rem;
+  height: initial;
+  /* border-radius: 3px 3px 13px; */
+}
+form.eeremfa-login-form input.form-text {
+  width: 90%;
+}
+form.eeremfa-login-form .eere-row a.login-password:visited {
+  color: #3986ca;
+  text-decoration:none;
+  color:  var(--alink-color);
+}
+div.wrapped-button button.button.button--primary.waves-btn {
+    border-radius: 3px 3px 3px 3px !important;
+    border: 0;
+ }
+@media (width <= 75em) {
+  .eeremfa-login-form .eere-row > div:nth-child(2) {
+  left: 0;
+  top: 0;
+  position: relative;
+ }
+}

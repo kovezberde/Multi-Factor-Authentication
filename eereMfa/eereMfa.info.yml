@@ -1,0 +1,7 @@
+
+name: EERE MFA
+description: EERE MFA module to authenticate users
+core: 8.x
+core_version_requirement: ^9 || ^10
+package: Custom
+type: module
