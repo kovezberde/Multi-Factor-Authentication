@@ -1,5 +1,0 @@
-services:
-  eeremfa.route_subscriber:
-    class: Drupal\eereMfa\Routing\RouteSubscriber
-    tags:
-      - { name: event_subscriber }
