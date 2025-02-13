@@ -37,7 +37,7 @@ class EereMfaDB
   {
     \Drupal\Core\Database\Database::setActiveConnection('external');
     $db = \Drupal\Core\Database\Database::getConnection();
-    $query = $db->select('eere_mfa_users', 'u');
+    $query = $db->select('mfa_users', 'u');
     $query->addField('u', 'app_user_id');
     $query->addField('u', 'mail');
     $query->addField('u', 'soft_token_types');
@@ -65,7 +65,7 @@ class EereMfaDB
   {
     \Drupal\Core\Database\Database::setActiveConnection('external');
     $db = \Drupal\Core\Database\Database::getConnection();
-    $result = $db->insert('eere_mfa_users')
+    $result = $db->insert('mfa_users')
       ->fields([
         'username' => $username,
         'mail' => $email,
@@ -78,7 +78,7 @@ class EereMfaDB
     $token_setup = EereMfaDB::callRequests($app_user_id);
     \Drupal\Core\Database\Database::setActiveConnection('external');
     $db = \Drupal\Core\Database\Database::getConnection();
-    $num_updated = $db->update('eere_mfa_users')
+    $num_updated = $db->update('mfa_users')
       ->fields([
         'status' => $token_setup->IsCompleted,
         'soft_token_types' => $token_setup->SoftTokenTypes,
